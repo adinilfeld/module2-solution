@@ -1,2 +1,61 @@
+* {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
 .navbar {
+	text-align: center;
+	background-color: grey;
+	padding: 0;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+}
+
+.navbar-brand h1 { /* "Food, LLC" */
+	color: black;
+	margin: 10px 0 10px 20px;
+}
+
+.navbar-light .navbar-toggler { /* navbar toggler */
+	border-color: black;
+	margin-right: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link { /* menu items */
+	color: black;
+	background-color: white
+}
+
+li {
+	font-size: 1.2em;
+}
+
+#navbarMenu ul {
+	border-top: 3px solid black;
+}
+
+.navbar-nav {
+	background-color: white;
+}
+
+hr {
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 95%;
+	border: .5px solid grey;
+}
+
+h2 { /* "Our Menu" */
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+h3 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.col { /* main content */
+	background-color: grey;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
