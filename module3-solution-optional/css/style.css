@@ -36,7 +36,7 @@ li {
 	background-color: white;
 }
 
-hr {
+.navbar hr {
 	margin-top: 0;
 	margin-bottom: 0;
 	width: 95%;
@@ -66,4 +66,30 @@ div.inner {
 	background-color: grey;
 	height: 700px;
 	padding: 10px 20px;
+	position: relative;
+}
+
+div.inner hr {
+	position: absolute;
+	bottom: 28px;
+	left: 0;
+	right: 0;
+	width: 90%;
+}
+
+div.inner a { /* "Back to top" */
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #a8a8a8;
+	color: darkblue;
+}
+
+div.inner a:hover {
+	background-color: #bfbfbf;
+	color: blue;
+	text-decoration: none;
 }
