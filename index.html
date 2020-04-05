@@ -1,16 +1,69 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Module 4 Solution Starter</title>
-  <script>
-    var names = []; // DO NOT REMOVE
-  </script>
-  <script src="SpeakHello.js"></script>
-  <script src="SpeakGoodBye.js"></script>
-  <script src="script.js"></script>
-</head>
-<body>
-  <h1>Module 4 Solution Starter</h1>
-</body>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Module 3 Solution</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> <!--bootstrap css-->
+		<link rel="stylesheet" href="css/style.css"> <!--custom css-->
+	</head>
+
+	<body>
+		<!--navbar-->
+		<nav class="navbar navbar-expand-md navbar-light">
+			<a class="navbar-brand" href="#">
+				<h1>Food, LLC</h1>
+			</a>
+			
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarMenu">
+				<ul class="navbar-nav d-block d-md-none">
+					<li class="nav-item"> 
+						<a class="nav-link" href="#">Chicken</a>
+					</li> 
+					<hr>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Beef</a>
+					</li> 
+					<hr>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Sushi</a>
+					</li>
+				</ul>
+			</div>
+		</nav> <!--end navbar-->
+
+		<!--content-->
+		<div class="container-fluid">
+			<h2 class="text-center">Our Menu</h2>
+
+			<div class="row">
+				<section class="col">
+					<h3 class="text-center">Chicken</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et purus eleifend, laoreet elit vel, sodales ipsum. Fusce ullamcorper nisl non mi rutrum congue. Vivamus a mattis ligula. Fusce molestie faucibus metus at imperdiet. Suspendisse potenti. Nam finibus massa quis risus ullamcorper facilisis. Quisque viverra felis non hendrerit finibus. Proin tempor erat non ante sollicitudin faucibus. Vivamus viverra lorem sed ipsum venenatis, sed posuere nunc elementum. Curabitur ligula orci, consequat ut rutrum ac, laoreet vel sem. Nullam vel semper tortor, at dictum purus. Nulla sit amet lacinia risus. In quis lorem sit amet nibh finibus ullamcorper. In ullamcorper leo ipsum, ut ornare diam feugiat sit amet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+<br />
+Maecenas arcu urna, molestie pulvinar dolor sed, blandit aliquet nibh. Curabitur rutrum arcu eget fermentum semper. Nam varius enim eget mauris maximus, ultricies feugiat magna mollis. Ut nec venenatis leo. Integer ultrices cursus consequat. Ut consectetur mollis sapien ut vulputate. Morbi vel odio luctus leo feugiat dictum id non dolor. Mauris eget fermentum velit, ut feugiat nunc. Cras non dolor eget tortor finibus cursus ac vitae est. Proin metus libero, ullamcorper sit amet vestibulum non, venenatis sit amet enim. Nulla facilisi. Praesent iaculis dignissim purus, non vestibulum dolor viverra posuere. In sed porttitor sem. Fusce leo nisi, aliquam porta maximus a, dignissim ac nisl.
+<br />
+Sed porttitor lacus quam, ut semper urna facilisis sit amet. Nulla at justo consectetur, faucibus mauris id, tincidunt magna. Phasellus tincidunt ante felis. Proin sed risus sed nisi auctor lobortis. Praesent convallis maximus nibh, ut suscipit lorem rutrum at. Curabitur dignissim sapien sit amet turpis egestas, non ultricies massa imperdiet. Morbi at tellus nulla. Duis est orci, viverra id sapien in, dapibus lobortis est. Aliquam lacus augue, suscipit non hendrerit vel, hendrerit sed dolor. Morbi mattis nibh nec viverra blandit.
+<br />
+Nulla ac malesuada enim. Praesent ullamcorper nec nunc et rhoncus. Phasellus leo odio, aliquam eu nisi et, pharetra dictum leo. Maecenas id ante eget libero rhoncus vulputate. Fusce et lorem purus. Phasellus turpis magna, rutrum a nibh vitae, consectetur rutrum lorem. Duis sed fringilla ex, laoreet vehicula lacus. In imperdiet tempus nulla, vel sollicitudin tortor rhoncus eu.
+<br />
+Maecenas arcu urna, molestie pulvinar dolor sed, blandit aliquet nibh. Curabitur rutrum arcu eget fermentum semper. Nam varius enim eget mauris maximus, ultricies feugiat magna mollis. Ut nec venenatis leo. Integer ultrices cursus consequat. Ut consectetur mollis sapien ut vulputate. Morbi vel odio luctus leo feugiat dictum id non dolor. Mauris eget fermentum velit, ut feugiat nunc. Cras non dolor eget tortor finibus cursus ac vitae est. Proin metus libero, ullamcorper sit amet vestibulum non, venenatis sit amet enim. Nulla facilisi. Praesent iaculis dignissim purus, non vestibulum dolor viverra posuere. In sed porttitor sem. Fusce leo nisi, aliquam porta maximus a, dignissim ac nisl.
+<br />
+Sed porttitor lacus quam, ut semper urna facilisis sit amet. Nulla at justo consectetur, faucibus mauris id, tincidunt magna. Phasellus tincidunt ante felis. Proin sed risus sed nisi auctor lobortis. Praesent convallis maximus nibh, ut suscipit lorem rutrum at. Curabitur dignissim sapien sit amet turpis egestas, non ultricies massa imperdiet. Morbi at tellus nulla. Duis est orci, viverra id sapien in, dapibus lobortis est. Aliquam lacus augue, suscipit non hendrerit vel, hendrerit sed dolor. Morbi mattis nibh nec viverra blandit.
+<br />
+Nulla ac malesuada enim. Praesent ullamcorper nec nunc et rhoncus. Phasellus leo odio, aliquam eu nisi et, pharetra dictum leo. Maecenas id ante eget libero rhoncus vulputate. Fusce et lorem purus. Phasellus turpis magna, rutrum a nibh vitae, consectetur rutrum lorem. Duis sed fringilla ex, laoreet vehicula lacus. In imperdiet tempus nulla, vel sollicitudin tortor rhoncus eu.
+</p>
+				</section>
+			</div>
+		</div> <!--end content-->
+
+		<!--Javascript for boostrap-->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	</body>
 </html>
